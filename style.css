@@ -1,0 +1,65 @@
+body, input, button {
+    font: 20px trebuchet ms, helvetica, sans-serif;
+}
+
+body {
+
+margin: 0;
+
+display: flex;
+
+height: 100vh;
+
+width: 100vw;
+}
+
+main {
+    background-color:gainsboro;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+aside {
+    background-color: aquamarine;
+    width: 30%;
+}
+
+input {
+    font-size: 40px;
+    text-align: center;
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.inputs {
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+}
+
+.words {
+    margin: 50px 10px;
+    text-align: center;
+}
+.words li {
+    margin: 5px;
+}
+.settings {
+    margin: 100px auto;
+}
+.settings input {
+    width: 100px;
+}
+#saveBtn, #checkBtn {
+    width: 50%;
+    margin: 30px 30%;
+
+}
