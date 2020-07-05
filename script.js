@@ -15,9 +15,7 @@ saveBtn.onclick = function () {
         ukrInp.value = ''
         localStorage.words = JSON.stringify(words)  
     }
-    engInp.focus()
-    
-    
+    engInp.focus()    
 }
 
 function addWord(eng, ukr) {
@@ -30,6 +28,7 @@ function addWord(eng, ukr) {
     }
     words.push(word)
 }
+
 
 function isDuplicate(eng, ukr) {
     for (let i = 0; i < words.length; i++) {
